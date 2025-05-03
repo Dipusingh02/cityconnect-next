@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import mongoose from "mongoose";
 import Post from "@/models/post"; // Adjust the path as needed
 
-interface Reply= {
+interface Reply{
   workerName: string;
   content: string;
   workerId: mongoose.Types.ObjectId;
